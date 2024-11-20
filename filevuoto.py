@@ -19,15 +19,17 @@ def visualizza():
   print(f"{i + 1}. {lista_vuota[i]}")
 
 #4
-def  rimuovi_elemento_easy():
-lista_vuota.remove("mela")
+def rimuovi_elemento():
+    if lista_vuota:
+        visualizza()
+        indice = input("Inserisci il numero (indice) dell'elemento da rimuovere: ")
+        elemento_rimosso = lista_vuota.pop(indice)
 
 
-def contaElementi():
 
 
 
-def svuota_lista():
+
    
 
 
