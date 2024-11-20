@@ -8,4 +8,10 @@ lista_vuota = []
 
 #2
 lista_vuota.append("mele")
-print("dopo append:", lista_vuota)
+
+
+#3
+print(lista_vuota)
+
+#4
+lista_vuota.remove("mele")
